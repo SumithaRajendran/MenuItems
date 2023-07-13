@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(155, 234, 155);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: rgb(212, 116, 135);
+  color: rgb(128, 0, 15);
+  cursor: pointer;
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  font-size: 25px;
+  background-color: rgb(231, 186, 220);
+
+
+}
+
+.foodRate {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.mainContent {
+  border: 1px dotted rgb(225, 142, 213);
+  padding: 5px;
+  margin: 15px;
+  width: 450px;
+  border-radius: 10px;
+
+
+}
+
+.maindisplay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(213, 200, 207);
+
+}
+
+.menuSelect {
+  text-align: center;
+  font-style: oblique;
 }
